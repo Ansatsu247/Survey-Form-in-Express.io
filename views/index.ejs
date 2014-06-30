@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+  <body>
+    <form action="/process" method="post">
+      Your Name: <input type="text" name="name" placeholder="name" /></br>
+      Dojo Location:
+      <select name="location">
+          <option value="Mountain View">Mountain View</option>
+          <option value="Seattle">Seattle</option>
+          <option value="Florida">Florida</option>
+      </select></br>
+      Favorite Language: 
+      <select name="language">
+          <option value="Javascript">Javascript</option>
+          <option value="Ruby">Ruby</option>
+          <option value="PHP">PHP</option>
+      </select></br>
+      Comment (optional): <textarea name="comment"></textarea></br>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
